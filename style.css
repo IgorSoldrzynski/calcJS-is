@@ -74,6 +74,10 @@ h3 {
 	min-height: 48px;
 	min-width: 48px;
 }
+#equals {
+	background-color: #bbbbbb;
+	font-size: 200% !important;
+}
 #backspace {
 	width: 36% !important;
 	max-width: 130px !important;
