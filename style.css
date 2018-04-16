@@ -48,6 +48,7 @@ h3 {
 	margin: 20px 4px 2px 0;
 }
 #calcForm {
+	background-image: url(images/calcBackground.png);
 	background-color: #ede2d8;
 	float: left;
 	min-width: 350px;
