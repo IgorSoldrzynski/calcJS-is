@@ -73,6 +73,10 @@ h3 {
 	min-height: 48px;
 	min-width: 48px;
 }
+#backspace {
+	width: 36% !important;
+	max-width: 130px !important;
+}
 #display {
 	background-color: #81a67e;
 	margin-left: 4px;
@@ -82,4 +86,9 @@ h3 {
 }
 #calcForm button:active {
 	color: blue;
+}
+#footer {
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+	color: gray;
 }

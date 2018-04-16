@@ -107,13 +107,11 @@ document.getElementById("html").addEventListener("keyup",
 				break;
 			//if pressed ESC
 			case 27:
-				clearDisplay();
-				element = document.getElementById("display");
+				element = document.getElementById("clear");
 				break;
 			//if pressed BACKSPACE
 			case 8:
-				backspaceDisplay();
-				element = document.getElementById("display");
+				element = document.getElementById("backspace");
 				break;
 			default:
 				propKey = false;
