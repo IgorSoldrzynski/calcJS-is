@@ -1,0 +1,25 @@
+@font-face {
+	/* Freewere font "Painting_With_Chocolate" 
+	downloaded from: 
+	http://www.fontspace.com/make-mooze/painting-with-chocolate */
+	font-family: 'Painting_With_Chocolate';
+	src: url('images/Painting_With_Chocolate.ttf');
+}
+
+body * {
+	font-family: "Painting_With_Chocolate", fantasy;
+}
+h1 {
+	text-align: center;
+}
+#calcForm button:active {
+	color: blue;
+}
+#pastResults {
+	min-height: 100px;
+	min-width: 200px;
+	max-height: 400px;
+	max-width: 400px;
+	width: 80%;
+	height: 40%;
+}
