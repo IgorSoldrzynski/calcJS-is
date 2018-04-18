@@ -70,8 +70,11 @@ h3 {
 	margin: 4px 0 0 4px;
 	float: left;
 	width: 18%;
-	height: 15%;
+	/*height: 15%;*/ /*some browsers had a problem with this*/
+	height: 48px;
 	min-height: 48px;
+	max-height: 48px;
+	line-height: 0.8;
 	min-width: 48px;
 }
 #equals {
